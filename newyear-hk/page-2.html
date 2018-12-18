@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聖誕送大禮</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=480px, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="email=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="yes"> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="./styles/global.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/common.css"/>
+    <link rel="stylesheet" type="text/css" href="./styles/page-2.css?v=181211"/>
+    <link rel="stylesheet" type="text/css" href="./styles/mobile.css"/>
+</head>
+<body>
+    <div class="newYear">
+        <div class="header clearfox">
+            <a class="logo" href="https://www.daydaycook.com"></a>
+            <div class="clearfox header_right">
+                <a class="clearfox down" href="javascript:void(0)" id="btn_downApp">
+                    <i class="icon_down"></i>
+                    <i class="text_down">下載日日煮  APP</i>
+                </a>
+                <a class="f" href="https://www.facebook.com/daydaycooker" target="_blank"></a>
+                <a class="i" href="https://www.instagram.com/daydaycooker/" target="_blank"></a>
+                <div class="down_pic" id="downAppK"></div>
+            </div>
+        </div>
+        <div class="top_bar">
+            <div class="top_bg">
+                <a href="./index.html"></a>
+            </div>
+            <div class="top_wrap">
+                <i class="icon_menu" id="mobile_menu_btn"></i>
+                <ul class="clearfox list_menu" id="mobile_menu_list">
+                    <!-- <li>
+                        <a href="./page-2.html"></a>
+                    </li> -->
+                    <li>
+                        <a href="./page-3.html">零失敗賀年菜</a>
+                    </li>
+                    <li>
+                        <a href="./page-4.html">拜年懶人包</a>
+                    </li>
+                    <li>
+                        <a href="./page-5.html">大掃除小貼士</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile_title page2_mobile"></div>
+            <ul class="clearfox top_list">
+                <!-- <li class="active">
+                    <a href="./page-2.html"></a>
+                </li> -->
+                <li>
+                    <a href="./page-3.html">零失敗賀年菜</a>
+                </li>
+                <li>
+                    <a href="./page-4.html">拜年懶人包</a>
+                </li>
+                <li>
+                    <a href="./page-5.html">大掃除小貼士</a>
+                </li>
+            </ul>
+        </div>
+        <div class="seven_days red_wood_bg">
+            <div class="desc">
+                DayDayCook 聖誕送大禮！年尾係買禮物同換新家電嘅好時節，一啲實用嘅日用品或小電器都好受歡迎。今次我地就揀左7份聖誕禮品 Giveaway 俾大家，希望同大家一齊過一個豐富溫馨嘅 Merry Christmas！每日公開一個 Giveaway，記得日日返嚟參加啦！
+            </div>
+            <div class="quest"></div>
+            <ul class="clearfox list_seven">
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>1</strong> 10/12（Mon）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day1-bruno-02.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">BRUNO & Vitantonio</div>
+                            <div class="p_name">BRUNO Compact Hot Plate多功能電熱鍋 + 陶瓷深鍋聖誕禮盒裝 + Vitantonio厚燒三文治機
+                                    </div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $1664</span>
+                                <span class="j_btn" id="prizeDay1" >立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>2</strong> 11/12（Tue）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day2-komachi-01.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">Akitakomachi Pasta</div>
+                            <div class="p_name">秋田大潟村 意粉禮物包</div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $110.7</span>
+                                <span class="j_btn" id="prizeDay2">立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>3</strong> 12/12（Wed）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day3-HoCha-02.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">半熟工房 X 好茶養生</div>
+                            <div class="p_name">聖誕尊尚禮盒套裝-牛油曲奇＋薑味曲奇</div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $268</span>
+                                <span class="j_btn" id="prizeDay3">立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>4</strong> 13/12（Thu）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day4-Kiehls-01.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">Kiehl’s</div>
+                            <div class="p_name">Kiehl’s  x Andrew Bannecker 2018 節日限量版護膚套裝</div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $2,047</span>
+                                <span class="j_btn" id="prizeDay4">立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>5</strong> 14/12（Fri）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day5-Kai-01.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">KAI</div>
+                            <div class="p_name">SUPER IRON 單柄鐵炒鍋33CM</div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $1,480</span>
+                                <span class="j_btn" id="prizeDay5">立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>6</strong> 15/12（Sat）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day6-Thermos-011.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">Thermos</div>
+                            <div class="p_name">470亳升真空燜燒罐</div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $368</span>
+                                <span class="j_btn" id="prizeDay6">立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li class="item_seven">
+                    <ol class="list_content">
+                        <li class="item_date">
+                            Day <strong>7</strong> 16/12（Sun）
+                        </li>
+                        <li class="item_img">
+                            <img src="./images/day7-HKA-01.jpg" alt="Image"/>
+                        </li>
+                        <li class="item_content">
+                            <div class="b_name">香港航空</div>
+                            <div class="p_name">香港至東京商務艙雙人來回機票1套</div>
+                            <div class="price_join">
+                                <span class="price">價值：HK $55,220</span>
+                                <span class="j_btn" id="prizeDay7">立即参加</span>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="prize_steps">
+            <div class="prize_title" id="priceTitle" style="display:none;">
+                <span class="hanz">立即參加贏大獎！</span><br/>
+                <span class="eng">Merry Christmas</span>
+            </div>
+            <div class="prize_days" id="prize_daysi" style="display:none;">
+                <div class="day_sec">Day</div>
+                <div class="day_arrow" id="stretchBtn"></div>
+                <ul id="stretchList">
+                    <li class="day_num day_active prize_day1" style="display:none;">1</li>
+                    <li class="day_num prize_day2" style="display:none;">2</li>
+                    <li class="day_num prize_day3" style="display:none;">3</li>
+                    <li class="day_num prize_day4" style="display:none;">4</li>
+                    <li class="day_num prize_day5" style="display:none;">5</li>
+                    <li class="day_num prize_day6" style="display:none;">6</li>
+                    <li class="day_num prize_day7" style="display:none;">7</li>
+                    <li class="day_top" id="prize_dayTop">Top</li>
+                </ul>
+            </div>
+            <div class="item_steps itemStepsFir item_steps_fir no_time">
+                <div class="item_top item_top1"></div>
+                <div class="item_middle item_multi">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day1"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day1-bruno.jpg" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">BRUNO
+                                <br />BRUNO Compact Hot Plate多功能電熱鍋 +陶瓷深鍋聖誕禮盒裝
+                                <br /><strong style="font-weight: normal;">價值：HK $1296</strong>
+                                <br /><br />Vitantonio<br />厚燒三文治機
+                            </span>
+                            <span class="price">價值：HK $368</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-10-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-10-02.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-10-03.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                            深受世界各地家庭歡迎的BRUNO多功能電熱鍋，自推出以來全球銷量已超越 100 萬台！<br />在今個聖誕佳節，特別推出BRUNO 多功能電熱鍋連深鍋套裝，全新米灰色機身，一機多用，具1200w火力，溫度調節範圍由65°C到250°C，配搭陶瓷深鍋，
+                            無論是燉菜、還是吃火鍋，也是能跟朋友共同享受的樂趣。<br />
+                            配合極具豪華感的燙金外盒包裝，在聖誕佳節給你帶來既型格又高貴的心思。<br />
+                            想留喺屋企都可以食到cafe嘅厚燒三文治？<br />
+                            可以用Vitantonio厚燒三文治機，烤盤深度增至3.2cm，可放入厚切麵包和豐富餡料，而且火力達800W能快速高温烤焗，想做出賣相一流嘅熱壓三文治話都無咁易啦！
+                        <br /><b>名額</b>：2名
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/hkbruno/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    BRUNO Style – Hong Kong
+                                </a>
+                                <a href="https://www.facebook.com/vitantoniohk/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Vitantonio- Hong Kong Official
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScP6YSEHHFJpx-zq4gMkrj-FABQ2ZUdD0FhPpaxOTsR_Muz2w/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的兩位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_steps item_steps_sec no_time">
+                <div class="item_top"></div>
+                <div class="item_middle item_multi">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day2"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day2-komachi.jpg" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">Akitakomachi Pasta<br />秋田大潟村 意粉禮物包</span>
+                            <span class="price">價值：HK $110.7</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-11-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-11-02.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-11-03.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                            聖誕節少不免需要出席派對, 更需要打扮一番，想每日都充滿能量及皮膚保持最佳狀態。我建議大家可以挑選營養價值較高食材去製作派對食物，今次想同大家推介一款預發芽糙米製成無麩質意粉，由日本秋田大瀉村出產Akitakomachi Pasta的意粉和醬汁，預發芽糙米比普通糙米具有較高的營養價值，因為它含有天然酶及富含GABA，一種充滿營養的氨基酸。可以降低血壓並把甘油三酯轉換成能量。更含有維生素B1，鎂，鈣，鐵，膳食纖維，無麩質飲食有助美肌和抑壓過剩食慾，可以提升免疫力，讓你精神飽滿！麩質食物有機會令人產生過敏反應，出現痕癢，嘴腫，肚脹，腹瀉等不適症狀。對食物同身體注重既你們，相信煮聖誕大餐既你們更懂得選擇！！
+                        <br /><b>名額</b>：50名
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/%E6%97%A5%E6%9C%AC%E7%A7%8B%E7%94%B0%E5%A4%A7%E6%BD%9F%E6%9D%91%E7%84%A1%E9%BA%A9%E8%B3%AA%E6%84%8F%E7%B2%89%E5%8F%8A%E9%86%AC%E6%B1%81-119344752310444" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Akitakomachi Pasta
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSchAIVNDRxcePwN5qVJDvk9cmoLBuq9HflJ2eaEyKbDZ4X1nQ/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的五十位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_steps item_steps_thr no_time">
+                <div class="item_top"></div>
+                <div class="item_middle item_multi">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day3"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day3-HoCha-01.jpg" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">半熟工房 X 好茶養生<br/>聖誕尊尚禮盒套裝-牛油曲奇＋薑味曲奇</span>
+                            <span class="price">價值：HK $268</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-12-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-12-02.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-12-03.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                            每年煩惱既時間又到，就係諗買甚麼禮物！想送一份有意思又有心意禮物俾閨蜜、同事、家人們，【半熟工房 X 好茶養生】聖誕尊尚禮盒套裝是由兩個香港本地品牌合作推出，當中包括兩款曲奇，經典牛油味及薑味（各8塊），及4款養生茶飲：皇牌氣血茶，桂花雪梨茶，桂圓紅棗茶，茉莉玫瑰茶（各2包），每款均有不同的養生功効 例如安神養心，清熱潤肺，補血補氣等等。聖誕禮盒上更印有四款不同的聖誕主題，而且每樣產品都有獨立包裝，方便又衛生！無論是送禮或自用都必定合適。
+                        <br /><b>名額</b>：10名
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/hanjukukobo/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Hanjukukobo
+                                </a>
+                                <a href="https://www.facebook.com/hochahk/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Ho Cha
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgWhta_Zpzm1NQ2Ycx_Y_m3hmIPVoEQImVfsEtK0yLrSrL4g/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的十位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_steps item_steps_fou no_time">
+                <div class="item_top"></div>
+                <div class="item_middle item_multi">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day4"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day4-Kiehls.png" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">Kiehl’s<br />Kiehl’s  x Andrew Bannecker 2018 節日限量版護膚套裝</span>
+                            <span class="price">價值：HK $2,047</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-13-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-13-02.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-13-03.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                        今年聖誕，Kiehl’s 與美國人氣插畫師Andrew Bannecker 合作，為多款皇牌產品換上限量版包裝，設計中加添不少聖誕卡通元素 色彩繽紛 賞心悅目 。今次限量版套裝中包括五件Kiehl’s皇牌產品，包括：【經典潤膚乳霜 226g】，【特效保濕乳霜50ml】，【金盞花植物精華爽膚水 250ml】，【深夜奇蹟修復精華露 50ml】，【經典潤膚乳500ml】及限量版環保袋一個。送俾朋友或自用都同樣開心☺
+                        <br /><b>名額</b>：1名
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/KiehlsHongKong/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Kiehl’s
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzjR5JEYpM_d9KLi9E_m-iuYiWcD-gEP7kNBdgGQQhQMbx0w/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的一位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_steps item_steps_fiv no_time">
+                <div class="item_top"></div>
+                <div class="item_middle">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day5"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day5-Kai.jpg" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">KAI<br />SUPER IRON 單柄鐵炒鍋33CM</span>
+                            <span class="price">價值：HK $1,480</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-14-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-14-02.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-14-03.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                        日本製造的SUPER IRON 單柄鐵炒鍋33CM，利用獨有的4層氮化加工，加強鍋身硬度，煮食時不易黐底。表面的吸油性強，所以煮食時不需要加入太多食油，都可以煎香食物，相當健康，而且容易清洗，用清水和百潔布即可，非常方便。
+                        <br /><b>名額</b>：1名
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/KaiCutleryHK/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Kai Cutlery
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfykrj6R3CIs6i0PmEYb3NCfEQNxCGRlTIoNn3lpdoGNLsccw/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的一位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_steps item_steps_six no_time">
+                <div class="item_top"></div>
+                <div class="item_middle">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day6"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day6-Thermos.jpg" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">Thermos<br />470亳升真空燜燒罐</span>
+                            <span class="price">價值：HK $368</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-15-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-15-021.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-15-031.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                        燜燒罐的不銹鋼真空夾層有高效保溫保冷效力，不但止可以保溫、保冷、保冰，仲可以用黎燜焗簡易料理，成為你的行動廚房！
+                        <br /><b>名額</b>：6名
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/thermoshk/" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    Thermos
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSejRs53iCTpJlpyyqs4n-e7GS_Xw2arj22ZsH31vrJmQNPk5Q/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的六位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="item_steps item_steps_sev no_time">
+                <div class="item_top"></div>
+                <div class="item_middle">
+                    <ul class="clearfox item_list">
+                        <li>
+                            <i class="icon_day icon_day7"></i>
+                        </li>
+                        <li>
+                            <img src="./images/day7-HKA.jpg" alt="image">
+                        </li>
+                        <li class="info_steps">
+                            <span class="pr_name">香港航空<br />香港至東京商務艙雙人來回機票1套</span>
+                            <span class="price">價值：HK $55,220</span>
+                        </li>
+                        <li>
+                            <img src="./images/view-16-01.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-16-02.jpg" alt="image">
+                        </li>
+                        <li>
+                            <img src="./images/view-16-03.jpg" alt="image">
+                        </li>
+                    </ul>
+                    <div class="item_text">
+                            一到普天同慶既聖誕節，就會好想走出香港去過一個不同既假期，想去放一個假，將一年累積下來辛勞好好慰勞自己，不停去探索好既地方、尋找美食、放縱購物一番。 我們都明白大家都需要一個出走理由 ，今次聖誕壓軸大獎由榮獲國際知名Skytrax四星級評級的香港航空送出香港至東京商務艙雙人來回機票1套，想趁節日與另一半或閨蜜去東京欣賞晴空塔和富士山等特色景點， 就千萬不能錯過這個機會！
+                        <br /><b>名額</b>： 1位
+                    </div>
+                </div>
+                <div class="item_bottom">
+                    <i class="tips_step"></i>
+                    <!-- <i class="display_step"></i> -->
+                    <div class="clearfox stepToStep">
+                        <ul class="step1">
+                            <li class="step_icon step_icon1"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank"> 
+                                    <span class="step_red">Like</span>
+                                    DayDayCook
+                                </a>
+                                <a href="https://www.facebook.com/hkairlines" target="_blank">
+                                    <span class="step_red">Like</span>
+                                    香港航空
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step2">
+                            <li class="step_icon step_icon2"></li>
+                            <li class="step_link">
+                                <a href="https://www.facebook.com/daydaycooker/" target="_blank">
+                                    <span class="step_red">Like & Share</span>連接中的Post，並在原貼
+                                    <span class="step_red">留言Tag3位朋友：</span>DayDay-Cook FB
+                                </a>
+                            </li>
+                            <li class="step_spots">
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                                <span class="spot"></span>
+                            </li>
+                        </ul>
+                        <ul class="step3">
+                            <li class="step_icon step_icon3"></li>
+                            <li class="step_link">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSctAyOnROIzuRKhOpT7-ryePChM1BA93PonVUb8k3QnwHYqYg/viewform?usp=sf_link" target="_blank">
+                                    <span class="step_red">回答表格</span>中簡單問題DayDayCook 會選出答得最好的一位參加者成為得獎者。
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfox footer">
+            <ul class="l_footer">
+                <li class="fir_footer">
+                    日日煮-每日最新食谱推介
+                </li>
+                <li class="clearfox sec_footer">
+                    <input type="text" placeholder="請輸入你的電郵">
+                    <button>訂閱</button>
+                </li>
+                <li class="thr_footer">
+                    <a href="https://www.daydaycook.com.cn/">內陸官網</a>
+                    <a href="https://www.daydaycook.com/daydaycook/hk/website/clause/abouts.do">關於我們</a>
+                    <a href="https://www.daydaycook.com/daydaycook/hk/website/siteMap.do">網站地圖</a>
+                    <a href="https://www.daydaycook.com/daydaycook/hk/website/clause/ystk.do">隱私條款</a>
+                    <a href="https://www.daydaycook.com/daydaycook/hk/website/clause/sytk.do">使用條款</a>
+                </li>
+            </ul>
+            <ul class="clearfox r_footer">
+                <li class="fir_footer">
+                    了解更多有關日日煮的信息
+                </li>
+                <li class="sec_footer">
+                    <a class="f" href="https://www.facebook.com/daydaycooker"></a>
+                    <a class="i" href="https://www.instagram.com/daydaycooker/"></a>
+                    <a class="y" href="https://www.youtube.com/user/daydaycookkitchen?sub_confirmation=1"></a>
+                    <a class="p" href="https://www.pinterest.com/daydaycook"></a>
+                    <a class="c" href="javascript:void(0)"></a>
+                </li>
+                <li>
+                    DayDayCook Copyright © 2011 - 2018 日日煮 版權所有
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="./javascripts/jquery.js"></script>
+    <script type="text/javascript" src="./javascripts/page-2.js"></script>
+    <script type="text/javascript" src="./javascripts/common.js"></script>
+</body>
+</html>

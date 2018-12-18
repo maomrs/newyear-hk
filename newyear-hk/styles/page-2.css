@@ -1,0 +1,391 @@
+
+.seven_days{
+    height: 1840px;
+}
+.seven_days .desc, .seven_days .quest{
+    color: #fff;
+}
+.seven_days .desc{
+    width: 870px;
+    margin: 0 auto;
+    padding: 40px 0 10px;
+    font-size: 16px;
+}
+.seven_days .quest{
+    width: 410px;
+    height: 75px;
+    margin: 10px auto 0;
+    background: url(../images/tag.png) center center / contain no-repeat;
+}
+.seven_days .list_seven{
+    position: relative;
+    width: 910px;
+    margin: 50px auto 0;
+}
+.seven_days .item_seven{
+    float: left;
+    width: 260px;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 60px 110px 0;
+    background: #fff;
+    height:420px;
+}
+.seven_days .item_seven:nth-of-type(3),
+.seven_days .item_seven:nth-of-type(6){
+    margin-right: 0;
+}
+.seven_days .item_seven:nth-of-type(7){
+    transform: translate(320px, 0);
+    -webkit-transform: translate(320px, 0);
+}
+.seven_days .item_date{
+    font-size: 16px;
+    color: rgb(155, 18, 18);
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.seven_days .item_date strong{
+    font-size: 30px;
+}
+.seven_days .item_img{
+    width: 100%;
+    height: 230px;
+    background: gray;
+}
+.seven_days .item_img img{
+    width: 100%;
+    height: 100%;
+}
+.seven_days .item_content{
+    margin-top: 10px;
+    text-align: center;
+}
+.seven_days .b_name, .seven_days .p_name{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.seven_days .p_name{
+    margin-bottom: 10px;
+    min-height:60px;
+}
+.seven_days .price{
+    margin-right: 20px;
+    min-width:110px;
+}
+.seven_days .j_btn{
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(175, 65, 65);
+    border-radius: 15px;
+}
+.seven_days .j_btn:hover{
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    transition:opacity .2s;
+    -webkit-transition:opacity .2s;
+}
+.prize_steps{
+    position: relative;
+}
+.prize_steps .prize_title{
+    height: 120px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(29, 69, 11);
+    padding-top: 35px;
+    background: #fff;
+}
+.prize_steps .prize_title .hanz{
+    font-size: 32px;
+}
+.prize_steps .prize_days{
+    z-index: 99;
+    position: absolute;
+    top: 420px;
+    right: 80px;
+    width: 74px;
+    min-height:590px;
+}
+.prize_steps .prize_days_fixed{
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+}
+.prize_steps .prize_days .day_sec{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 14px;
+    cursor: default;
+}
+.prize_steps .prize_days .day_arrow,
+.prize_steps .prize_days .day_num,
+.prize_steps .prize_days .day_top{
+    position: relative;
+    width: 60px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto 14px;
+    cursor: pointer;
+    background: rgb(155, 18, 18);
+}
+.prize_steps .prize_days .day_active{
+    color: rgb(155, 18, 18);
+    border: 2px solid rgb(155, 18, 18);
+    background: #fff;
+}
+.prize_steps .prize_days .day_arrow:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    -webkit-transform: translate(-50%, -20%);
+    border-style: solid;
+    border-width: 12px;
+    border-color: #fff transparent transparent transparent;
+}
+.prize_steps .prize_days .day_arrow.stretch:before{
+    transform: translate(-50%, -80%) rotateX(180deg);
+    -webkit-transform: translate(-50%, -80%) rotateX(180deg);
+}
+.prize_steps .item_steps{
+    position: relative;
+    width: 100%;
+}
+.prize_steps .item_steps.no_time{
+    display:none;
+}
+.prize_steps .item_top, 
+.prize_steps .item_bottom{
+    position: relative;
+    background: rgb(248, 224, 187);
+}
+.prize_steps .item_top{
+    height: 200px;
+}
+.prize_steps .item_top1{
+    height: 400px;
+}
+.prize_steps .item_bottom{
+    height: 600px;
+}
+.prize_steps .item_bottom .stepToStep{
+    position: relative;
+    width: 680px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    transform: translate(25px, 150px);
+    -webkit-transform: translate(25px, 150px);
+}
+.prize_steps .item_bottom .stepToStep ul{
+    position: relative;
+    float: left;
+    width: 150px;
+    margin-right: 100px;
+}
+.prize_steps .item_bottom .stepToStep .step3{
+    margin-right: 0;
+}
+.prize_steps .item_bottom .stepToStep ul li{
+    width: 100%;
+    text-align: center;
+}
+.prize_steps .item_bottom .stepToStep ul li:nth-of-type(2){
+    margin: 20px 0 40px;
+    line-height:22px;
+}
+.prize_steps .item_bottom .stepToStep .step_red{
+    color: rgb(155, 18, 18);
+    font-weight: bold;
+}
+.prize_steps .item_bottom .stepToStep .step_icon{
+    width: 96px;
+    height: 140px;
+    margin: 0 auto;
+}
+.prize_steps .item_bottom .stepToStep .step_icon1{
+    background: url(../images/step1-3_02.png) center center / cover no-repeat;
+}
+.prize_steps .item_bottom .stepToStep .step_icon2{
+    background: url(../images/step1-3_04.png) center center / cover no-repeat;
+}
+.prize_steps .item_bottom .stepToStep .step_icon3{
+    background: url(../images/step1-3_06.png) center center / cover no-repeat;
+}
+.prize_steps .item_bottom .stepToStep .step_link{
+    font-size: 16px;
+}
+.prize_steps .item_bottom .stepToStep .step_link a{
+    color: rgb(52, 43, 43);
+    transition:color .2s;
+    -webkit-transition:color .2s;
+}
+.prize_steps .item_bottom .stepToStep .step_link a:hover{
+    color: #FCAE04;
+}
+.prize_steps .item_bottom .stepToStep .step_spots{
+    position: absolute;
+    top: 80px;
+    transform: translate(120px, 0);
+    -webkit-transform: translate(120px, 0);
+}
+.prize_steps .item_bottom .stepToStep .spot{
+    width: 15px;
+    height: 15px;
+    background: rgb(155, 18, 18);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.prize_steps .item_bottom .stepToStep .spot:last-of-type{
+    margin-right: 0;
+}
+.prize_steps .item_middle{
+    position: relative;
+    height: 600px;
+    background: #fff;
+}
+.prize_steps .item_middle.item_multi{
+    height:auto;
+}
+.prize_steps .item_list{
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+    transform: translate(0, -140px);
+    -webkit-transform: translate(0, -140px);
+}
+.prize_steps .item_list li{
+    float: left;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 60px;
+}
+.prize_steps .item_list li img{
+    width: 100%;
+    height: 100%;
+}
+.prize_steps .icon_day{
+    position: absolute;
+    right: 96px;
+    bottom: -6px;
+    width: 128px;
+    height: 240px;
+}
+.prize_steps .icon_day1{
+    background: url(../images/day1_1.png) center center / cover no-repeat;
+}
+.prize_steps .icon_day2{
+    background: url(../images/day1_2.png) center center / cover no-repeat;
+}
+.prize_steps .icon_day3{
+    background: url(../images/day1_3.png) center center / cover no-repeat;
+}
+.prize_steps .icon_day4{
+    background: url(../images/day1_4.png) center center / cover no-repeat;
+}
+.prize_steps .icon_day5{
+    background: url(../images/day1_5.png) center center / cover no-repeat;
+}
+.prize_steps .icon_day6{
+    background: url(../images/day1_6.png) center center / cover no-repeat;
+}
+.prize_steps .icon_day7{
+    background: url(../images/day1_7.png) center center / cover no-repeat;
+}
+.prize_steps .info_steps .price,
+.prize_steps .info_steps .pr_name{
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+.prize_steps .info_steps .pr_name{
+    font-size: 14px;
+    font-weight: bold;
+}
+.prize_steps .info_steps .price{
+    /* bottom: 0; */
+}
+.prize_steps .info_steps .pr_name{
+    padding-bottom:25px;
+}
+.prize_steps .item_text{
+    width: 640px;
+    transform: translate(0, -175px);
+    -webkit-transform: translate(0, -175px);
+    margin:0 auto;
+}
+.prize_steps .item_bottom .tips_step,
+.prize_steps .item_bottom .display_step{
+    position: absolute;
+    left: 50%;
+}
+.prize_steps .item_bottom .tips_step{
+    top: 0;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50px);
+    -webkit-transform: translate(-50%, -50px);
+    background: url(../images/CallToAction.png) center center / cover no-repeat;
+}
+.prize_steps .item_bottom .display_step{
+    top: 100px;
+    width: 900px;
+    height: 300px;
+    transform: translate(-54%, 0);
+    -webkit-transform: translate(-54%, 0);
+    background: url(../images/step1-3.png) center center / cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
